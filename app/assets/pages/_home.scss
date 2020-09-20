@@ -7,10 +7,17 @@
   padding: 16px 40px;
 
 
-  h1 {
+  .content {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    display: flex;
+
+    img {
+      height: 70%;
+      width: 20%;
+      border-radius: 25%;
+    }
   }
 }
 
