@@ -1,0 +1,45 @@
+.banner-card {
+  height: 360px;
+  width: 100%;
+  background-color: blue;
+  background-size: cover;
+  position: relative;
+  padding: 16px 40px;
+
+
+  h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.nav {
+  background-color: rgb(52, 52, 74);
+  list-style: none;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    padding: none;
+  }
+
+  li {
+    display: inline-block;
+
+    a {
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        color: rgb(175, 203, 255);
+        border-bottom: 2px solid rgb(175, 203, 255);
+      }
+    }
+  }
+}
+
+
+
+
