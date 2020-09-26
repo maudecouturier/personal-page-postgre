@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PersonalPagePostgre</title>
+    <title>Maude Couturier</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,6 +12,9 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%=  render 'shared/navbar' %>
+    <div class="main-container">
+      <%= yield %>
+    </div>
   </body>
 </html>

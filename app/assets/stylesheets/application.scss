@@ -1,5 +1,13 @@
+// Fonts
+@import "../config/fonts";
+
 /*External Libraries*/
 @import "bootstrap/scss/bootstrap";
 
-/*Pages*/
+// Components
+@import "../components/navbar";
+@import "../components/container";
+
+// Pages
 @import "../pages/home"
+

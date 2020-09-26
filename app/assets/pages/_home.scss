@@ -1,41 +1,31 @@
-.nav {
-  background-color: rgb(52, 52, 74);
-  list-style: none;
-  padding: 8px 20px;
-  display: flex;
-  justify-content: space-between;
-
-  ul {
-    padding: none;
-  }
-
-  li {
-    display: inline-block;
-
-    a {
-      text-decoration: none;
-      color: white;
-
-      &:hover {
-        color: rgb(175, 203, 255);
-        border-bottom: 2px solid rgb(175, 203, 255);
-      }
-    }
-  }
+body {
+  background-color: rgb(212, 201, 201);
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
 }
+
+.home-banner {
+  padding-top: 12vh;
+}
+
 
 // A REVOIR
-.content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+// .content {
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
 
-}
+// }
 
 .profile-pic {
-  height: 70%;
-  width: 20%;
-  border-radius: 8%;
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  margin-bottom: 5%;
+}
+
+.first-line-text {
+  margin-bottom: 5%;
 }
 
 .about-card {
