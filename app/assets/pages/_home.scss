@@ -2,10 +2,16 @@ body {
   background-color: rgb(212, 201, 201);
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 20px;
+
+  h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+  }
 }
 
 .home-banner {
-  padding-top: 12vh;
+  padding-top: 5vh;
+  height: 100vh;
 }
 
 
@@ -28,42 +34,46 @@ body {
   margin-bottom: 5%;
 }
 
-.about-card {
-  overflow: hidden;
-  height: 120px;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  display: flex;
-  align-items: center;
+// .about-card {
+//   overflow: hidden;
+//   height: 120px;
+//   background: white;
+//   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+//   display: flex;
+//   align-items: center;
 
-  img {
-    height: 100%;
-    width: 120px;
-    object-fit: cover;
-  }
+//   img {
+//     height: 100%;
+//     width: 120px;
+//     object-fit: cover;
+//   }
 
-  h2 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0;
-  }
+//   h2 {
+//     font-size: 16px;
+//     font-weight: bold;
+//     margin: 0;
+//   }
 
-  p {
-    font-size: 14px;
-    margin-bottom: 0;
-  }
+//   p {
+//     font-size: 14px;
+//     margin-bottom: 0;
+//   }
 
-  li {
-    font-size: 12px;
-    opacity: .7;
-    margin-top: 2px;
-    margin-bottom: 0;
-  }
+//   li {
+//     font-size: 12px;
+//     opacity: .7;
+//     margin-top: 2px;
+//     margin-bottom: 0;
+//   }
 
-  .about-card-infos {
-    padding: 16px;
-  }
-}
+//   .about-card-infos {
+//     padding: 16px;
+//   }
+// }
+
+
+
+
 
 
 

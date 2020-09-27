@@ -4,6 +4,7 @@
   padding: 8px 20px;
   display: flex;
   justify-content: space-between;
+  height: 50px;
 
   ul {
     padding: none;
@@ -20,7 +21,11 @@
       font-size: 24px;
 
       &:hover {
-        color: rgb(175, 203, 255);
+        color: white;
+      }
+
+      &:focus {
+        color: white;
       }
     }
   }
